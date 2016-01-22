@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block content%}
+    <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                Published On: {{post.published_date}}
+            </div>
+        {% else %}
+            <div class="date">
+            Created On: {{post.created_date}}, Not yet published
+            </div>
+            <a class="btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>
+        {% endif %}
+        <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+        <a class="btn btn-default" href="{% url 'post_delete' pk=post.pk %}"><span class="glyphicon glyphicon-trash"></span></a>
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.text |linebreaks }}</p>
+    </div>
+{% endblock %}
