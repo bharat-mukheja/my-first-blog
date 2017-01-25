@@ -1,14 +1,15 @@
-An h1 header
+TwentyForSeven
 ============
 
-Paragraphs are separated by a blank line.
+A simple and easy-to-understand blogging application.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+[What is a blog](https://en.wikipedia.org/wiki/Blog)?
 
-  * this one
-  * that one
-  * the other one
+###Features of this application:###
+
+  * Very easy to understand
+  * Elegant Looking
+  * Minimalistic cluttering
 
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
