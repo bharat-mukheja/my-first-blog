@@ -20,6 +20,7 @@ How to Use
 2. Use pallette on top right to create a new blog post or modify an existing while on the post page
 3. Use publish button below the post to publish a draft
 4. Use the admin panel <ip-address>/admin to log in and make changes to publishing.
+
 >(Note that when you create a blog it is saved as a draft first, and is not visible to a user unless he is logged in. To make it public, publish it, and the steps of modification of blog(including creating a new one) can only be done by a logged in user)
 
 
